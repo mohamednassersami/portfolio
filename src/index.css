@@ -69,3 +69,41 @@ body {
   width: calc(100% + var(--container-padding) + var(--container-padding));
   margin-left: calc(var(--container-padding) * -1);
 }
+
+li {
+  list-style: none;
+}
+a {
+  all: unset;
+
+  transition: 0.2s;
+}
+a:hover {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+button {
+  all: unset;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  scale: 0.9;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
